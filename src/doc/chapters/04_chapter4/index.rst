@@ -326,6 +326,46 @@ Level 4 requires particularly strong consideration of:
 
 This level does not imply that high-consequence activities should automatically be delegated. Rather, it identifies contexts in which the readiness requirements for delegation are expected to be particularly demanding.
 
+Delegation Decision Factors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A delegation level should not be interpreted as a standalone
+determination of whether a delegation is appropriate. The delegation
+decision should consider the relationship among delegation level,
+consequence, reversibility, time available for human intervention,
+human readiness, organizational readiness, and available assurance
+evidence.
+
+The relationship may be represented conceptually as:
+
+::
+
+   Delegation Level
+          +
+      Consequence
+          +
+      Reversibility
+          +
+   Intervention Conditions
+          +
+    Human Readiness
+          +
+  Organizational Readiness
+          +
+    Assurance Evidence
+          =
+    Delegation Decision
+
+The factors should be assessed in the context of the intended use and
+should be reassessed when the delegation context, agent capability,
+organizational conditions, or consequences materially change.
+
+A higher delegation level does not necessarily indicate a higher
+level of risk, and a lower delegation level does not necessarily
+indicate a lower level of consequence. Delegation level and
+consequence should therefore be considered as related but distinct
+dimensions.
+
 4.6 Readiness Assessment
 ------------------------
 
