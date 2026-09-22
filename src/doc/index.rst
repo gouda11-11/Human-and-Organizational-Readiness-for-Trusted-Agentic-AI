@@ -21,7 +21,7 @@ History
 
 Version  | Document | Approval | Focus Group | Working Group
 -------- | -------- | -------- | ----------- | ------------
-0.1 | Human and Organizational Readiness for Trusted Agentic AI | 2026-09-22 | TIDA | To be confirmed
+0.2 | Human and Organizational Readiness for Trusted Agentic AI | 2026-09-22 | TIDA | To be confirmed
 
 Authors
 -------
