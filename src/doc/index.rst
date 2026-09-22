@@ -19,29 +19,16 @@ This document is a working specification for discussion within the ITU-T Focus G
 History
 -------
 
-+---------+--------------------------------------------------+
-| Version | 0.1                                              |
-+---------+--------------------------------------------------+
-| Document| Human and Organizational Readiness for Trusted   |
-|         | Agentic AI                                       |
-+---------+--------------------------------------------------+
-| Approval| 2026-09-22                                       |
-+---------+--------------------------------------------------+
-| Focus   | TIDA                                             |
-| Group   |                                                  |
-+---------+--------------------------------------------------+
-| Working | To be confirmed                                  |
-| Group   |                                                  |
-+---------+--------------------------------------------------+
+Version  | Document | Approval | Focus Group | Working Group
+-------- | -------- | -------- | ----------- | ------------
+0.1 | Human and Organizational Readiness for Trusted Agentic AI | 2026-09-22 | TIDA | To be confirmed
 
 Authors
 -------
 
-+------------------+------------------------------------+------------------+
-| Name             | Affiliation                        | Contact          |
-+------------------+------------------------------------+------------------+
-| Dr. Islam Gouda | Humanized AI Economy Initiative    | To be provided   |
-+------------------+------------------------------------+------------------+
+Name | Affiliation | Contact
+---- | ----------- | -------
+Dr. Islam Gouda | Humanized AI Economy Initiative | To be provided
 
 Keywords
 --------
