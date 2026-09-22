@@ -208,6 +208,22 @@ Assessment may consider:
 
 Continuous assurance should provide mechanisms for reducing, modifying, suspending, or terminating delegation when readiness conditions are no longer satisfied.
 
+Delegation readiness is not determined by agent capability alone.
+A technically capable or trustworthy agent does not, by itself,
+establish that a human or organization is ready to accept the
+authority associated with a particular delegation.
+
+Delegation readiness is a socio-technical property of the
+relationship between agent capability, delegated authority, human
+capability, organizational capability, meaningful human oversight,
+accountability, controls, consequences, reversibility, and assurance
+evidence.
+
+Accordingly, the determination of whether a delegation should proceed
+should consider both the characteristics of the agentic AI system and
+the readiness of the humans and organization responsible for the
+delegation.
+
 4.4 Delegation and Readiness Relationship
 -----------------------------------------
 
