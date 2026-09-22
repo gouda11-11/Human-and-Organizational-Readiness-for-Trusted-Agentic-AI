@@ -1,76 +1,68 @@
-
 .. raw:: latex
 
     \pagestyle{plain}
     \thispagestyle{plain}
-    %% Suppress all TOC entries for the overview chapter (sections, subsections,
-    %% Copyright addcontentsline) — restored just before \sphinxtableofcontents
-    %% so chapters from Introduction onward appear in the TOC normally.
+    %% Suppress all TOC entries for the overview chapter.
     \let\osiaorigaddcontentsline\addcontentsline
     \renewcommand{\addcontentsline}[3]{}
 
 .. _chapter-overview:
 
-.. only:: html
-
-    .. admonition:: This is a document template
-        :class: tip
-
-        Replace the ``<placeholders>`` and the *lorem ipsum* text throughout with
-        your own content. This landing page is the document's front matter:
-
-        * **Abstract**, **History**, **Authors**, **Keywords** and **Foreword**
-          are standard front-matter sections — keep them and fill them in.
-        * **Chapters 1–4** demonstrate the authoring system (text, figures,
-          tables, diagrams, and API references). Read them, then replace their
-          content with your specification.
-
-        This notice appears on the web version only; it is excluded from the
-        published PDF. See the project ``HOWTO`` for how to build and publish.
-
-Title of this document
-========================
+Human and Organizational Readiness for Trusted Agentic AI
+===========================================================
 
 .. only:: html
 
-    **<subtitle of this document>**
+    **HORA-TAI**
 
 .. raw:: latex
 
-    \begin{center}\textbf{<subtitle of this document>}\end{center}
+    \begin{center}\textbf{HORA-TAI}\end{center}
 
 Abstract
 --------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Agentic AI systems are increasingly capable of reasoning, planning, using tools,
+interacting with external systems, and executing actions with varying degrees of
+autonomy. As these capabilities expand, trust in agentic AI depends not only on
+the technical properties of the agent, but also on the readiness of the humans
+and organizations that delegate authority to it.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+This specification proposes a human and organizational readiness framework for
+trusted agentic AI. It addresses the conditions required for meaningful human
+oversight, appropriate delegation of authority, accountability, traceability,
+workforce readiness, organizational governance, and continuous assurance.
+
+The proposed framework complements technical trust, identity, authorization,
+and security mechanisms by addressing the human and organizational context in
+which agentic AI operates. It introduces readiness dimensions and a structured
+approach for assessing whether a person, team, or organization is prepared to
+delegate defined levels of authority to an agentic AI system.
+
+The core principle is that trustworthy agentic AI requires not only trustworthy
+agents, but trustworthy delegation.
+
+This document is a working specification for discussion within the ITU-T Focus
+Group on Trust and Identity for Humans and Agentic AI (FG-TIDA). It does not
+constitute an ITU-T Recommendation or an approved ITU-T standard.
 
 History
 -------
 
 .. list-table::
     :header-rows: 1
-    :widths: 10 26 18 14 32
+    :widths: 10 30 18 14 28
 
     * - Version
       - Document
       - Approval
       - Focus Group
       - Working Group
-    * - <version>
-      - <title>
-      - <date>
+    * - 0.1
+      - Human and Organizational Readiness for Trusted Agentic AI
+      - 2026-09-22
       - TIDA
-      - <acronym>
-
-To access this Document as a PDF, open the published documentation site in your web
-browser and click the PDF download link, or navigate directly to
-https://debora-com.github.io/CUTEspecs/specification.pdf.
+      - To be confirmed
 
 Authors
 -------
@@ -82,17 +74,16 @@ Authors
     * - Name
       - Affiliation
       - Contact
-    * - <Jane Doe>
-      - <Organization / Company>
-      - <jane.doe@example.com>
-    * - <John Smith>
-      - <Organization / Company>
-      - <john.smith@example.com>
+    * - Islam Gouda
+      - Humanized AI Economy Initiative
+      - To be provided
 
 Keywords
 --------
 
-Lorem, ipsum, dolor, consectetur, adipiscing.
+Agentic AI, human oversight, organizational readiness, delegated authority,
+accountability, traceability, AI assurance, human agency, workforce readiness,
+trusted AI, continuous assurance.
 
 .. raw:: latex
 
@@ -102,25 +93,45 @@ Lorem, ipsum, dolor, consectetur, adipiscing.
 Foreword
 --------
 
-Agentic AI systems now act as autonomous entities capable of reasoning, planning, and
-executing tasks across services, infrastructures, and organizational boundaries. This
-fundamentally changes the nature of identity in digital systems: identity is no longer
-limited to human users and static machine instances but must also encompass autonomous,
-dynamic, and goal-oriented agents. And identity alone is insufficient — the core question
-extends beyond "what an entity is" to "whether, and under what conditions, that entity
-should be trusted to act".
+Agentic AI introduces a shift from AI systems that primarily provide
+information or recommendations toward systems that can interpret objectives,
+plan actions, use tools, interact with external systems, and execute tasks on
+behalf of people and organizations.
 
-The Focus Group on Trust and Identity for humans and agentic AI (FG-TIDA) addresses trust
-management and interoperable digital identity infrastructure for humans and for agentic AI,
-supporting the development of secure, trustworthy digital ecosystems in which humans and
-agentic AI can safely interact and collaborate.
+This shift creates a complementary trust challenge. An agent may possess
+appropriate technical safeguards while the human or organization delegating
+authority to that agent may lack the capabilities, processes, governance, or
+workforce readiness required to supervise and remain accountable for its
+actions.
 
-FG-TIDA was established under Recommendation ITU-T A.7 (Focus groups: Establishment and
-working procedures), with ITU-T Study Group 17 as its parent group. Further details are
-available in the group's terms of reference.
+The Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)
+addresses trust management and interoperable digital identity infrastructure
+for humans and agentic AI, supporting the development of secure and trustworthy
+digital ecosystems in which humans and agentic AI can safely interact and
+collaborate.
 
-For more news and updates about the TIDA Community, including its supporter organizations,
-please refer to the community's published resources.
+This specification complements that work by focusing on the human and
+organizational conditions surrounding delegated authority. It proposes that
+the assessment of trusted agentic AI should consider not only whether an agent
+can be trusted to perform a task, but also whether the relevant human and
+organizational actors are prepared to delegate that task under defined
+conditions.
+
+The proposed framework considers meaningful human oversight, delegation
+boundaries, accountability, traceability, workforce capabilities,
+organizational governance, and continuous assurance. It is intended to provide
+a common vocabulary and a structured basis for further discussion,
+experimentation, and potential standardization.
+
+The framework is designed to be technology-neutral. It does not prescribe a
+particular AI model, architecture, identity mechanism, or deployment
+environment. Instead, it focuses on the relationship between agent capability,
+delegated authority, human oversight, and organizational readiness.
+
+This document is submitted as a working specification for discussion within
+FG-TIDA. The concepts, terminology, levels, and requirements presented here
+are proposals for further review and refinement by the Focus Group and its
+participants.
 
 .. raw:: latex
 
@@ -129,46 +140,15 @@ please refer to the community's published resources.
 Note
 ----
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This document is an initial working specification and is not an ITU-T
+Recommendation. The terminology, framework dimensions, delegation levels,
+requirements, and assessment methodology are proposed for discussion and may
+be revised through the FG-TIDA development process.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-voluptatem accusantium doloremque laudantium.
-
-.. Intellectual Property Rights — section commented out. To restore it, remove the
-   leading ".." and the indentation below, and re-add a ".. raw:: latex" block with
-   "\osiacenternextsection" before the heading (to centre it on the PDF).
-
-   Intellectual Property Rights
-   ----------------------------
-
-   ITU draws attention to the possibility that the practice or implementation of this
-   Recommendation may involve the use of a claimed Intellectual Property Right. ITU takes no
-   position concerning the evidence, validity or applicability of claimed Intellectual Property
-   Rights, whether asserted by ITU members or others outside of the Recommendation development
-   process.
-
-   As of the date of approval of this Recommendation, ITU had not received notice of intellectual
-   property, protected by patents/software copyrights, which may be required to implement this
-   Recommendation. However, implementers are cautioned that this may not represent the latest
-   information and are therefore strongly urged to consult the appropriate ITU-T databases
-   available via the ITU-T website at http://www.itu.int/ITU-T/ipr/.
-   Implementers should also be aware that the organization that originated the technically
-   equivalent document listed in the Bibliography may have received notices of intellectual
-   property required for the implementation of this Recommendation.
+The appropriate FG-TIDA working group for this contribution is to be
+confirmed by the FG-TIDA Secretariat.
 
 .. raw:: latex
-
-    %% Copyright notice commented out. To restore, uncomment the lines below.
-    %% \vspace{4em}
-    %% \begin{center}\textcopyright{} ITU 2024\end{center}
-    %%
-    %% \medskip
-    %% All rights reserved. No part of this publication may be reproduced, by any means whatsoever, without the
-    %% prior written permission of ITU.
 
     %% Restore \addcontentsline so the TOC below (and Chapter 1 onward) populate.
     \let\addcontentsline\osiaorigaddcontentsline
