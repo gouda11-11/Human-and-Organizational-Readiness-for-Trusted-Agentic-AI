@@ -354,6 +354,10 @@ The resulting delegation decision.
 **Reassessment conditions**
 
 Conditions or events that require reassessment.
+.. toctree::
+   :maxdepth: 2
+
+   annex_b_delegation_levels
 
 **Assessment date**
 
