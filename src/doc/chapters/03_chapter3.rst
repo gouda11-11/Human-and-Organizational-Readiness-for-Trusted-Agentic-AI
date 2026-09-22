@@ -100,6 +100,20 @@ The degree to which the relevant human and organizational capabilities, controls
 
 Readiness is context-dependent and should be assessed in relation to the specific agent, delegated authority, operating environment, and potential consequences of agent actions.
 
+Delegation Readiness
+--------------------
+
+A state in which the human and organizational conditions required to
+accept, supervise, govern, and remain accountable for a specified
+delegation of authority to an agentic AI system are sufficiently
+established for the intended delegation context.
+
+Delegation readiness is context-dependent and should be assessed in
+relation to the delegated authority, delegation level, consequences,
+reversibility, human oversight, organizational capability, controls,
+and available assurance evidence.
+
+
 3.12 Readiness Dimension
 ------------------------
 
