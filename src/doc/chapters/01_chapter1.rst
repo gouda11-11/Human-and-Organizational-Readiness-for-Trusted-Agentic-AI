@@ -1,126 +1,138 @@
+1 Introduction and Scope
+========================
 
-.. _chapter1:
+1.1 Introduction
+----------------
 
-Writing content
-===============
+Agentic artificial intelligence (AI) systems are evolving from systems that primarily generate information or recommendations into systems capable of interpreting objectives, planning actions, using tools, interacting with external systems, and executing tasks on behalf of humans and organizations.
 
-.. note::
+This evolution changes the nature of the relationship between humans and AI systems. In conventional AI-assisted workflows, the human generally remains the direct decision-maker and uses AI as an informational or analytical resource. In agentic workflows, humans may delegate defined objectives or actions to an AI agent, allowing the agent to make intermediate decisions and execute actions within an authorized boundary.
 
-    This template is *self-documenting*: each chapter both explains and
-    demonstrates a part of the authoring system. Read the rendered page to see
-    what is possible, then open the matching ``.rst`` source file to see exactly
-    how it was produced. Replace this instructional content with your own.
+Delegation introduces a distinct trust requirement.
 
-This chapter covers the everyday building blocks of a document: headings, text,
-lists, links, cross-references, highlighted notes, and code. Chapter 2 covers
-figures, tables and diagrams; Chapter 4 covers API reference documentation.
+The reliability and safety of an agent alone do not determine whether a delegated activity is trustworthy. The human or organization granting authority must also be capable of defining appropriate boundaries, understanding the implications of delegation, establishing effective oversight, maintaining accountability, and responding when an agent behaves unexpectedly.
 
-Headings and structure
-----------------------
+This specification therefore addresses the human and organizational conditions required for trusted delegation to agentic AI.
 
-Headings define the structure of a chapter. A heading is a line of text with a
-row of punctuation underneath it, at least as long as the text. The *character*
-used sets the level:
+The central principle of this specification is:
 
-* ``=`` for the chapter title (top level),
-* ``-`` for a section (like this one),
-* ``"`` for a subsection.
+**Trustworthy agentic AI requires not only trustworthy agents, but trustworthy delegation.**
 
-Subsection example
-""""""""""""""""""
+1.2 Purpose
+-----------
 
-This is a subsection. Chapters are numbered automatically, so you never type
-"1.2.3" yourself — Sphinx computes it from the heading levels and the order of
-files.
+The purpose of this specification is to establish a structured framework for assessing human and organizational readiness for the delegation of authority to agentic AI systems.
 
-Text styling
-------------
+The framework is intended to support:
 
-Within a paragraph you can mark text as *italic* (one asterisk), **bold** (two
-asterisks), or ``inline code`` / literal text (two backticks). Use inline code
-for field names, values, and anything a reader should type verbatim, such as
-``transactionId`` or ``application/json``.
+* meaningful human oversight;
+* appropriate definition and allocation of delegated authority;
+* clear accountability for agent actions and outcomes;
+* traceability of delegated decisions and actions;
+* assessment of human capabilities and workforce readiness;
+* organizational governance of agentic AI;
+* continuous monitoring and assurance; and
+* informed decisions about when and how authority may be delegated to an agentic AI system.
 
-Lists
------
+The framework is intended to complement, rather than replace, technical mechanisms for trust, identity, authentication, authorization, security, privacy, safety, and AI assurance.
 
-Use a bulleted list for items with no particular order:
+1.3 Scope
+---------
 
-* First point.
-* Second point, which can wrap onto several lines and still belong to the same
-  item as long as the following lines are indented to match.
-* Third point.
+This specification addresses the readiness of humans and organizations to delegate defined authority to agentic AI systems.
 
-Use a numbered list when order or count matters. Start every item with ``#.``
-and the numbers are filled in for you:
+The scope includes:
 
-#. Collect the input.
-#. Validate it.
-#. Produce the result.
+* individual human readiness to supervise and interact with agentic AI;
+* team and workforce capabilities required to operate and supervise agentic AI;
+* organizational governance and accountability structures;
+* definition of delegation boundaries and conditions;
+* meaningful human oversight;
+* human understanding of agent capabilities and limitations;
+* authorization and escalation processes;
+* traceability and accountability for agent actions;
+* continuous assurance and reassessment; and
+* organizational readiness for changes resulting from increased AI autonomy.
 
-A *definition list* pairs a term with its explanation — useful for glossaries or
-parameter descriptions:
+The specification is technology-neutral. It does not prescribe a particular AI model, agent architecture, identity technology, security mechanism, vendor, deployment environment, or implementation approach.
 
-Term
-    The explanation of the term, indented underneath it.
+The specification may be applied across different sectors and organizational contexts, subject to the specific risks, regulatory requirements, operational conditions, and consequences associated with the delegated activity.
 
-Another term
-    Its explanation.
+1.4 Relationship to Agent Trust
+-------------------------------
 
-Links and cross-references
---------------------------
+Agentic AI trust involves multiple interacting layers.
 
-Link to an external site with the text and URL together, followed by an
-underscore, like `the TIDA site <https://www.itu.int/>`_.
+An agent may have appropriate technical capabilities and controls, including identity, authentication, authorization, security mechanisms, monitoring, and safeguards. These mechanisms are necessary but may not be sufficient to establish trustworthy delegation.
 
-To point at another part of *this* document, give a target a label and refer to
-it by name. This paragraph can, for example, send the reader to
-:ref:`chapter2` — the link text and page number update automatically if the
-target moves. Labels are defined with ``.. _name:`` immediately above a heading
-(see the top of any chapter source file).
+A trusted delegation relationship also requires the relevant human and organizational actors to understand:
 
-Highlighting: notes, warnings, tips
+* what authority is being delegated;
+* why that authority is being delegated;
+* what actions the agent is permitted to perform;
+* what actions remain subject to human approval;
+* what risks may arise from the delegation;
+* how agent actions can be monitored and traced;
+* who remains accountable for outcomes; and
+* what conditions require intervention, escalation, suspension, or termination of delegated authority.
+
+Accordingly, this specification treats human and organizational readiness as a complementary component of trusted agentic AI.
+
+1.5 Intended Users
+------------------
+
+This specification may be relevant to:
+
+* organizations deploying agentic AI systems;
+* AI system developers and providers;
+* organizations responsible for AI governance and assurance;
+* risk, compliance, security, and audit functions;
+* technology and digital transformation leaders;
+* workforce and learning functions;
+* policymakers and regulators;
+* standards-development organizations;
+* researchers studying human-AI interaction and AI governance; and
+* individuals responsible for supervising or operating agentic AI systems.
+
+1.6 Applicability
+-----------------
+
+The framework may be applied wherever an agentic AI system receives authority to perform actions, make intermediate decisions, or interact with external systems on behalf of a human or organization.
+
+Examples may include:
+
+* customer service agents authorized to resolve customer requests;
+* enterprise agents authorized to initiate business processes;
+* procurement agents authorized to identify or purchase goods and services;
+* software agents authorized to modify or deploy code;
+* financial agents authorized to initiate defined transactions;
+* administrative agents authorized to perform organizational tasks; and
+* public-sector agents operating within defined administrative processes.
+
+The appropriate level of readiness required depends on the nature of the delegated authority, the potential consequences of agent actions, the reversibility of those actions, the sensitivity of the information involved, and the effectiveness of available human oversight and technical controls.
+
+1.7 Core Principle
+------------------
+
+The framework is based on the following principle:
+
+**The authority delegated to an agent should not exceed the human and organizational capacity to understand, supervise, govern, and remain accountable for that delegation.**
+
+This principle recognizes that increasing agent autonomy can create corresponding requirements for human capability, organizational governance, oversight, and assurance.
+
+Readiness should therefore be assessed in relation to the specific delegation rather than treated as a universal characteristic of an individual or organization.
+
+1.8 Structure of This Specification
 -----------------------------------
 
-*Admonitions* draw the eye to something important. Several types are available,
-each with its own colour and icon:
+This specification develops the framework progressively.
 
-.. note::
+Chapter 2 defines the problem addressed by the specification and establishes its objectives.
 
-    A note adds supporting information the reader should be aware of.
+Chapter 3 provides terms and definitions used throughout the framework.
 
-.. tip::
+Chapter 4 presents the human and organizational readiness dimensions and the proposed approach for assessing readiness.
 
-    A tip offers helpful, optional advice.
+The annexes and appendices provide supporting material, including illustrative delegation levels, assessment considerations, and examples for further discussion.
 
-.. warning::
-
-    A warning flags something that can cause errors or data loss.
-
-.. important::
-
-    An "important" box stresses a point that must not be missed.
-
-Code and data samples
----------------------
-
-Show code or data in a highlighted block. Name the language after
-``.. code-block::`` to get syntax colouring — here, ``json``:
-
-.. code-block:: json
-
-    {
-        "key": "value",
-        "anotherKey": 23
-    }
-
-Requirement keywords
---------------------
-
-Specifications rely on precise requirement language. The key words "MUST",
-"MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
-"RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as
-described in `RFC 2119 <http://www.ietf.org/rfc/rfc2119.txt>`_.
-
-Keep this section in your specification and use those words deliberately —
-readers and implementers rely on their exact meaning.
+The framework is intended as a working specification for discussion within the ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA). The concepts and requirements presented in this document are proposals for review, refinement, and potential future standardization.
