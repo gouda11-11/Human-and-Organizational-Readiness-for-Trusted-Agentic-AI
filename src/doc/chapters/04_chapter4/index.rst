@@ -468,3 +468,31 @@ Further development may include:
 * development of evidence-based thresholds for different delegation contexts.
 
 Such development should be informed by research, practical deployments, stakeholder consultation, and experience from standards and assurance activities.
+
+4.14 Relationship to Existing AI Governance Frameworks
+------------------------------------------------------
+
+HORA-TAI is intended to complement, rather than replace, existing AI
+governance, risk-management, and assurance frameworks.
+
+Existing frameworks may address organizational governance, AI risk,
+system characteristics, accountability, transparency, safety, and
+human oversight. HORA-TAI focuses specifically on the readiness of
+humans and organizations to accept, supervise, govern, and remain
+accountable for delegated authority to agentic AI systems.
+
+Accordingly, HORA-TAI may be applied as a delegation-focused layer
+within broader AI governance and risk-management processes.
+
+The framework does not establish that a delegation is appropriate
+solely because an AI system satisfies technical, governance, or
+risk-management requirements. It considers whether the relevant human
+and organizational conditions are sufficient for the authority being
+delegated.
+
+HORA-TAI therefore addresses a specific relationship between agentic
+AI capability, delegated authority, human readiness, organizational
+readiness, oversight, accountability, and assurance. The framework is
+intended to support integration with existing governance and
+assurance approaches while providing a distinct focus on the
+conditions required for trustworthy delegation.
