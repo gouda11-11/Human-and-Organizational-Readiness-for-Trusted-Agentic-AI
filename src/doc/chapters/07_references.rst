@@ -7,7 +7,8 @@ Readiness Framework for Trusted Agentic AI (HORA-TAI).
 
 The references are provided for context and interoperability. Inclusion of a
 reference does not imply that HORA-TAI is equivalent to, formally endorsed by,
-or incorporated into the referenced standard or framework.
+or incorporated into the referenced standard, framework, or regulatory
+instrument.
 
 ITU-T and FG-TIDA
 -----------------
@@ -39,8 +40,8 @@ https://doi.org/10.6028/NIST.AI.100-1
 Playbook".
 
 The AI RMF Playbook provides suggested actions and documentation practices
-associated with the Govern, Map, Measure, and Manage functions of the NIST AI
-RMF.
+associated with the Govern, Map, Measure, and Manage functions of the NIST
+AI RMF.
 
 https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook
 
@@ -127,40 +128,19 @@ ethical considerations in AI.
 
 https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence
 
-Trustworthy and Responsible AI
-------------------------------
+AI Risk and Assurance Resources
+-------------------------------
 
 [12] National Institute of Standards and Technology (NIST), "Artificial
 Intelligence Risk Management Framework".
 
-The AI RMF provides a voluntary, use-case-agnostic framework for managing AI
-risks and incorporating trustworthiness considerations into AI design,
+The NIST AI RMF provides a voluntary, use-case-agnostic framework for managing
+AI risks and incorporating trustworthiness considerations into AI design,
 development, deployment, use, and evaluation.
 
 https://www.nist.gov/itl/ai-risk-management-framework
 
-[13] OECD, "AI Principles".
-
-The OECD AI Principles provide an international reference point for
-human-centred and trustworthy AI and emphasize accountability and human
-oversight-related considerations.
-
-https://www.oecd.org/en/topics/ai-principles.html
-
-Agentic AI and Delegated Authority
-----------------------------------
-
-[14] ITU-T Focus Group on Trust and Identity for Humans and Agentic AI
-(FG-TIDA), "Draft Technical Specification and related working documents",
-International Telecommunication Union.
-
-FG-TIDA provides the principal standards-development context for HORA-TAI,
-particularly in relation to trust management, identity, authorization, and
-interactions between humans and agentic AI.
-
-https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx
-
-[15] NIST AI Resource Center, "AI Risk Management Framework Resources",
+[13] NIST AI Resource Center, "AI Risk Management Framework Resources",
 National Institute of Standards and Technology.
 
 The NIST AI Resource Center provides implementation resources supporting the
