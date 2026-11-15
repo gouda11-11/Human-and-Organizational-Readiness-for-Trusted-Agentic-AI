@@ -28,7 +28,7 @@ Authors
 
 Name | Affiliation | Contact
 ---- | ----------- | -------
-Dr. Islam Gouda | Humanized AI Economy Initiative | To be provided
+Dr. Islam Gouda | Humanized AI Economy Initiative | islamgouda@hotmail.com
 
 Keywords
 --------
