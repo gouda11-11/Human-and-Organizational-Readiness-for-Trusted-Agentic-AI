@@ -189,8 +189,8 @@ latex_elements = {
     \endgroup
     \if@openright\cleardoublepage\else\clearpage\fi
   }%
-  \title{Rec. ITU-T}%
-  \\release{HORA-TAI 0.2}%
+  \title{HORA-TAI}%
+  \release{Version 0.2}%
 }
 
 %% Hide the next \chapter heading. Used to suppress the "Overview" chapter
@@ -277,18 +277,18 @@ latex_elements = {
       %% Top-left banner: document identity
       \node[anchor=north west, inner sep=0pt]
         at ([xshift=1.5cm, yshift=-1.3cm]current page.north west)
-        {\sffamily\Large\textcolor{ituAccent}{\textbf{ITU}}\textbf{Publications}};
+        {\sffamily\Large\textbf{HORA-TAI}};
       \node[anchor=north west, inner sep=0pt]
         at ([xshift=1.5cm, yshift=-1.9cm]current page.north west)
-        {\sffamily\normalsize Recommendations};
+        {\sffamily\normalsize Working Specification};
 
       %% Top-right banner: status clarification
       \node[anchor=north east, inner sep=0pt]
         at ([xshift=-1.5cm, yshift=-1.3cm]current page.north east)
-        {\sffamily\normalsize\textbf{International Telecommunication Union}};
+        {\sffamily\normalsize\textbf{Independent proposal for discussion}};
       \node[anchor=north east, inner sep=0pt]
         at ([xshift=-1.5cm, yshift=-1.9cm]current page.north east)
-        {\sffamily\small Standardization Sector};
+        {\sffamily\small Not an ITU-T Recommendation or approved standard};
 
       %% Red horizontal bar
       \fill[ituRed] ([yshift=-2.6cm]current page.north west)
@@ -306,7 +306,7 @@ latex_elements = {
       \node[anchor=north west, inner sep=0pt, text width=18cm]
         at ([xshift=1.5cm, yshift=-4.8cm]current page.north west)
         {\sffamily\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy%
-         {\huge Recommendation}\\[0.4cm]
+         {\huge Working Specification}\\[0.4cm]
          {\Huge\bfseries \coverTitle}\\[1.2cm]
          {\Large \coverSeries}\\[0.5cm]
          {\Large \coverSubject}};
@@ -322,9 +322,6 @@ latex_elements = {
         {\sffamily\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy\LARGE\bfseries \coverSubtitle};
 
       %% No institutional logo is used on this proposal cover
-      \node[anchor=south east, inner sep=0pt]
-        at ([xshift=-1.5cm, yshift=1.5cm]current page.south east)
-        {\includegraphics[width=2.5cm]{tida-logo.png}};
     \end{tikzpicture}
   \end{titlepage}
   \cleardoublepage
