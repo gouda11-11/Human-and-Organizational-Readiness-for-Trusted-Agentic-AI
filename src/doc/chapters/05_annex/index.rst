@@ -354,10 +354,6 @@ The resulting delegation decision.
 **Reassessment conditions**
 
 Conditions or events that require reassessment.
-.. toctree::
-   :maxdepth: 2
-
-   annex_b_delegation_levels
 
 **Assessment date**
 
@@ -413,6 +409,7 @@ Further research and validation are required to determine:
 * how the framework can integrate with existing AI assurance methodologies.
 
 The framework should therefore be treated as a basis for discussion, experimentation, and refinement rather than as a finalized certification methodology.
+
 .. toctree::
    :maxdepth: 2
 
