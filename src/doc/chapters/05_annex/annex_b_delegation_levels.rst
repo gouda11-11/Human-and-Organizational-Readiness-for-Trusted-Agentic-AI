@@ -167,24 +167,20 @@ Primary assurance considerations include:
 * periodic assurance; and
 * clear accountability.
 
-B.7 Level 4 - High-Consequence Autonomy
-----------------------------------------
+B.7 Level 4 - Advanced Delegated Authority
+------------------------------------------
 
-At Level 4, the agent may exercise substantial autonomy in activities where errors, unexpected behavior, or unauthorized actions could produce significant consequences.
+At Level 4, the agent may exercise substantial delegated authority and broad autonomy within a defined operational context.
 
-Level 4 is not defined solely by technical autonomy.
-
-A delegation may be considered high-consequence because of the potential impact of its actions even when the technical workflow appears relatively constrained.
+Level 4 describes the scope and degree of delegated authority. It does not classify the potential consequence of the activity. Consequence should be assessed separately, including where a narrowly constrained action may still have significant or critical effects.
 
 Examples may include activities involving:
 
-* material financial consequences;
-* critical organizational operations;
-* sensitive information;
-* significant effects on individuals;
-* critical infrastructure;
-* high-impact services; or
-* other contexts where unintended actions could produce substantial harm or disruption.
+* extended multi-step execution across connected systems;
+* broad decision authority within a defined operational domain;
+* coordination of multiple agents or services;
+* material changes to organizational processes; or
+* sustained execution toward an assigned objective with limited direct human intervention.
 
 Primary assurance considerations include:
 
@@ -200,7 +196,7 @@ Primary assurance considerations include:
 * defined accountability; and
 * documented conditions for suspension or termination.
 
-The existence of Level 4 does not imply that a particular high-consequence activity should be delegated.
+The existence of Level 4 does not imply that a particular delegation should proceed. Its suitability depends on the separately assessed consequence, reversibility, intervention conditions, human readiness, organizational readiness, and assurance evidence.
 
 B.8 Delegation Level and Consequence
 ------------------------------------
@@ -211,13 +207,13 @@ A relatively autonomous agent operating within a low-consequence environment may
 
 Assessment should therefore consider at least two dimensions:
 
-**Autonomy**
+**Autonomy and delegated authority**
 
-The degree to which the agent can determine and execute actions without direct human approval.
+The degree to which the agent can determine and execute actions without direct human approval, together with the scope of permissions and decision rights granted.
 
 **Consequence**
 
-The potential magnitude and significance of effects resulting from an incorrect, unauthorized, or unintended action.
+The potential magnitude and significance of effects resulting from an incorrect, unauthorized, or unintended action. Consequence should be considered independently of the delegation level. For discussion, an assessment may describe potential consequence as limited, moderate, significant, or critical. These descriptors are qualitative prompts, not universal thresholds or a validated classification.
 
 The combination of these dimensions should inform the required readiness and assurance conditions.
 
