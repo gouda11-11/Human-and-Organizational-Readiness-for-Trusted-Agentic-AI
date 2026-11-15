@@ -107,7 +107,7 @@ html_theme = "furo"
 html_theme_options = {
     "sidebar_hide_name": False,
 }
-html_logo = "images/TIDA_logo.png"
+html_logo = None  # Independent proposal; do not imply institutional endorsement
 html_show_sourcelink = False
 copyright = '2026, Dr. Islam Gouda'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
