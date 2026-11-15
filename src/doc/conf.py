@@ -15,7 +15,9 @@ numfig = True
 # Pin the LaTeX/PDF output to a stable filename (specification.tex ->
 # specification.pdf) regardless of the project name, so the publish workflow
 # always knows what to copy.
-latex_domain_indices = False  # Keep extension-generated routing indexes out of the specification PDF.\n\nlatex_documents = [
+latex_domain_indices = False  # Keep extension-generated routing indexes out of the specification PDF.
+
+latex_documents = [
     (master_doc, 'specification.tex', project, author, 'manual'),
 ]
 
