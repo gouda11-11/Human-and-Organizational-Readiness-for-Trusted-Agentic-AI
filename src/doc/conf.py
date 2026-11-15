@@ -5,10 +5,10 @@ source_suffix = {'.rst': 'restructuredtext'}
 master_doc = 'index'
 exclude_patterns = []
 pygments_style = 'colorful'
-project = '<acronym>'
-release = '<version>'
-html_title = "<acronym>"
-author = '<author>'
+project = 'HORA-TAI'
+release = '0.2'
+html_title = "HORA-TAI | Human and Organizational Readiness for Trusted Agentic AI"
+author = 'Dr. Islam Gouda'
 
 numfig = True
 
@@ -21,10 +21,10 @@ latex_documents = [
 
 # --- Cover metadata: single source of truth for index.rst (via substitutions)
 # and the LaTeX cover (via \newcommand interpolation below). Edit here.
-cover_title    = '<acronym>'
-cover_series   = '<series or category>'
-cover_subject  = '<subject line>'
-cover_subtitle = '<subtitle of this document>'
+cover_title    = 'Human and Organizational Readiness for Trusted Agentic AI (HORA-TAI)'
+cover_series   = 'Working Specification for Discussion within ITU-T FG-TIDA'
+cover_subject  = 'Human and Organizational Readiness for Trusted Agentic AI'
+cover_subtitle = 'A framework for assessing readiness to delegate authority to agentic AI'
 
 extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib.openapi', 'sphinx_copybutton']
 # PlantUML command. On CI (GitHub Actions / Read the Docs) the `plantuml` package
@@ -48,7 +48,7 @@ rst_prolog = '''
   :http-equiv=X-UA-Compatible: IE=9    
 
 .. |tick|   unicode:: U+2714 .. HEAVY CHECK MARK
-.. |project| replace:: OSIA
+.. |project| replace:: HORA-TAI
 .. |release| replace:: '''+release+'''
 .. |cover-title|    replace:: '''+cover_title+'''
 .. |cover-series|   replace:: '''+cover_series+'''
@@ -109,7 +109,7 @@ html_theme_options = {
 }
 html_logo = "images/TIDA_logo.png"
 html_show_sourcelink = False
-copyright = '<year>, <author>'
+copyright = '2026, Dr. Islam Gouda'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
 html_last_updated_fmt = '%b %d, %Y'
 html_extra_path = ['yaml']
@@ -190,7 +190,7 @@ latex_elements = {
     \if@openright\cleardoublepage\else\clearpage\fi
   }%
   \title{Rec. ITU-T}%
-  \release{<acronym>}%
+  \\release{HORA-TAI 0.2}%
 }
 
 %% Hide the next \chapter heading. Used to suppress the "Overview" chapter
@@ -368,7 +368,7 @@ def setup(app):
 
 if 'itu' in tags:
     rst_prolog += '''
-.. |osia| replace:: ITU-T <acronym>
+.. |osia| replace:: HORA-TAI
 .. |specification| replace:: recommendation
 .. |chapter| replace:: clause
     '''
