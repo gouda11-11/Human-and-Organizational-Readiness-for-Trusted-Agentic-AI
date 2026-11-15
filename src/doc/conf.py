@@ -37,7 +37,7 @@ extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib
 import os as _os
 plantuml = _os.environ.get("PLANTUML", "plantuml")
 plantuml_output_format = 'svg'
-templates_path = ['_templates']
+# Custom HTML templates are excluded from the DataTracker source package.
 # Custom JavaScript is intentionally excluded from the contribution package.
 
 exclude_patterns = ['_*.rst', '*/_*.rst']
