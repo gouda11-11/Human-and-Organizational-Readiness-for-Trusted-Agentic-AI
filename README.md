@@ -1,40 +1,30 @@
-# TIDA Specification Template
+# Human and Organizational Readiness for Trusted Agentic AI (HORA-TAI)
 
-**See the template live:**
-📄 **[Web page](https://fg-tida.github.io/spec-template/)** ·
-📥 **[PDF](https://fg-tida.github.io/spec-template/specification.pdf)**
+**HORA-TAI** is a proposed human and organizational readiness framework for assessing whether people, teams, and organizations are prepared to delegate defined authority to agentic AI systems.
 
-The pages you see there are produced by this repository — they double as the
-template's documentation, explaining and demonstrating how to write a spec.
+The working specification addresses delegated authority, meaningful human oversight, accountability, traceability, workforce readiness, organizational governance, and continuous assurance. Its central principle is that trustworthy agentic AI requires not only trustworthy agents, but trustworthy delegation.
 
-> **Starting a new specification?** Follow
-> **[WG-ONBOARDING.md](WG-ONBOARDING.md)**. Once your repo is created, replace
-> the text of this README with a short description of *your* specification
-> (what it is, its status, and a link to its published site).
+## Document status
 
----
+- **Version:** 0.2
+- **Status:** Working specification for discussion within the ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)
+- **Author:** Dr. Islam Gouda
+- **Affiliation:** Humanized AI Economy Initiative
+- **Working group:** To be confirmed by the FG-TIDA Secretariat
 
-A specification for the FG-TIDA working groups, authored with the shared TIDA
-template: one source that builds a modern web page and a print-ready PDF, with
-support for diagrams and auto-generated API references.
+This document is a proposal for discussion and refinement. It is not an ITU-T Recommendation, an approved ITU-T standard, or an endorsed FG-TIDA specification.
 
-## Quick start
+## Read the specification
 
-1. Click **Use this template → Create a new repository** (owner `FG-TIDA`, name
-   `wg<N>-<short-name>`).
-2. In the new repo: **Settings → Pages → Source: GitHub Actions**.
-3. Edit the content under `src/doc/` — replace the `<placeholders>` and the
-   example text. Full instructions are in **[WG-ONBOARDING.md](WG-ONBOARDING.md)**.
-4. Push to `main`. The site and PDF publish automatically to
-   `https://fg-tida.github.io/<repo-name>/`.
+The source document is maintained in `src/doc/`. The main entry point is [src/doc/index.rst](src/doc/index.rst).
 
-## In this repository
+The repository is configured to build the HTML documentation and a PDF through GitHub Actions and publish them through GitHub Pages when the workflow and Pages configuration are successfully enabled.
 
-- `src/doc/index.rst` — the document front matter (title, abstract, authors…).
-- `src/doc/chapters/` — the chapters; they explain and demonstrate how to write
-  content, then you replace them with your own.
-- `HOWTO.md` — how to build and preview locally, and how to customise.
-- `WG-ONBOARDING.md` — the full step-by-step guide for authors.
+## Contact
 
-Built on the open-source [CUTEspecs](https://github.com/debora-com/CUTEspecs)
-template.
+Dr. Islam Gouda  
+[islamgouda@hotmail.com](mailto:islamgouda@hotmail.com)
+
+## Scope and limitations
+
+HORA-TAI is intended to complement technical trust, identity, authorization, security, and AI assurance mechanisms by addressing the human and organizational context in which agentic AI authority is delegated. Its framework, terminology, and assessment approach remain proposals for review, experimentation, and further validation.
