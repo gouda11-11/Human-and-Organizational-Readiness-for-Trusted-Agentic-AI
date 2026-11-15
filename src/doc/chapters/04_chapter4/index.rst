@@ -101,7 +101,7 @@ Assessment may consider:
 The presence of a human in a workflow should not, by itself, be considered evidence of meaningful human oversight.
 
 4.3.3 Delegation Governance
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This dimension addresses whether the organization has appropriate processes for deciding when, why, and under what conditions authority may be delegated to an agentic AI system.
 
@@ -120,7 +120,7 @@ Assessment may consider:
 Delegation governance should establish who is authorized to grant, modify, review, and terminate delegated authority.
 
 4.3.4 Accountability and Responsibility
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This dimension addresses whether responsibility for delegated activities and outcomes remains identifiable.
 
@@ -178,7 +178,7 @@ Assessment may consider:
 Workforce readiness should be considered across the full lifecycle of agentic AI deployment rather than only during initial implementation.
 
 4.3.7 Traceability and Assurance Evidence
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This dimension addresses whether relevant agent activity can be sufficiently reconstructed and whether the resulting records and other evidence can support evaluation of the delegation.
 
@@ -305,7 +305,7 @@ Examples may include:
 * selecting among predefined operational options.
 
 4.5.4 Level 3 - Extended Autonomy
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 At Level 3, the agent may pursue a defined objective through multiple steps and make broader intermediate decisions with limited direct human intervention.
 
@@ -319,7 +319,7 @@ Examples may include:
 * executing extended sequences of actions within a defined operational domain.
 
 4.5.5 Level 4 - Advanced Delegated Authority
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 At Level 4, the agent may exercise substantial delegated authority and broad autonomy within a defined operational context. The level describes the scope and degree of delegated authority; it does not classify the potential consequence of the activity.
 
@@ -421,7 +421,7 @@ A readiness determination should result in one of the following types of outcome
 These outcomes are intended to support operational decision-making and are not intended to establish a universal certification scheme.
 
 4.8 Readiness Evidence
----------------------
+----------------------
 
 Readiness determinations should be supported by evidence appropriate to the delegation context.
 
@@ -503,7 +503,7 @@ A previously acceptable delegation may become inappropriate when:
 Organizations should therefore establish mechanisms for periodic and event-driven reassessment.
 
 4.12 Framework Output
---------------------
+---------------------
 
 The output of applying the HORA-TAI framework should provide a structured representation of:
 
@@ -623,7 +623,7 @@ intervention capability. The delegation should not rely on untested
 assumptions about human competence.
 
 4.15.2 Meaningful Human Oversight
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Assessment criteria should consider whether:
 
@@ -649,7 +649,7 @@ incomplete, or unintelligible information. A human approval step alone is not
 evidence of meaningful oversight.
 
 4.15.3 Delegation Governance
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Assessment criteria should consider whether:
 
@@ -774,7 +774,7 @@ does not prove that a control was effective; assurance requires evaluation of
 the evidence against the control or outcome being assessed.
 
 4.15.8 Continuous Monitoring and Adaptation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Assessment criteria should consider whether:
 
