@@ -39,6 +39,15 @@ A high-capability agent does not by itself establish that a delegation is approp
 
 Similarly, a highly capable organization may not be ready to delegate a particular activity if the agent lacks sufficient capability, safeguards, or controllability.
 
+
+The framework distinguishes three assessment domains:
+
+* **Agent capability:** whether the agent can perform the assigned activity within the required technical and operational constraints.
+* **Human readiness:** whether the responsible humans can understand, supervise, challenge, and intervene in the agent's activity.
+* **Organizational readiness:** whether the organization can authorize, govern, monitor, support, and remain accountable for the delegation.
+
+These domains should be examined separately before they are considered together in a delegation decision. Strength in one domain does not compensate automatically for a material weakness in another.
+
 4.3 Readiness Dimensions
 ------------------------
 
@@ -168,10 +177,12 @@ Assessment may consider:
 
 Workforce readiness should be considered across the full lifecycle of agentic AI deployment rather than only during initial implementation.
 
-4.3.7 Traceability and Assurance
+4.3.7 Traceability and Assurance Evidence
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This dimension addresses whether relevant agent activity can be sufficiently reconstructed and evaluated.
+This dimension addresses whether relevant agent activity can be sufficiently reconstructed and whether the resulting records and other evidence can support evaluation of the delegation.
+
+Traceability concerns the ability to reconstruct relevant events and relationships. Assurance concerns the evaluation of evidence to establish confidence that specified controls, capabilities, and governance arrangements are present and operating as intended. The two concepts are related but should not be treated as interchangeable.
 
 Assessment may consider:
 
@@ -307,10 +318,10 @@ Examples may include:
 * optimizing defined business processes; and
 * executing extended sequences of actions within a defined operational domain.
 
-4.5.5 Level 4 - High-Consequence Autonomy
+4.5.5 Level 4 - Advanced Delegated Authority
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-At Level 4, the agent may exercise substantial autonomy in activities where errors or unintended actions could produce significant consequences.
+At Level 4, the agent may exercise substantial delegated authority and broad autonomy within a defined operational context. The level describes the scope and degree of delegated authority; it does not classify the potential consequence of the activity.
 
 Level 4 requires particularly strong consideration of:
 
@@ -324,7 +335,7 @@ Level 4 requires particularly strong consideration of:
 * escalation; and
 * organizational readiness.
 
-This level does not imply that high-consequence activities should automatically be delegated. Rather, it identifies contexts in which the readiness requirements for delegation are expected to be particularly demanding.
+A Level 4 delegation is not automatically appropriate. Its suitability depends on the assessed consequence, reversibility, intervention conditions, readiness, and assurance evidence.
 
 Delegation Decision Factors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -360,11 +371,7 @@ The factors should be assessed in the context of the intended use and
 should be reassessed when the delegation context, agent capability,
 organizational conditions, or consequences materially change.
 
-A higher delegation level does not necessarily indicate a higher
-level of risk, and a lower delegation level does not necessarily
-indicate a lower level of consequence. Delegation level and
-consequence should therefore be considered as related but distinct
-dimensions.
+Delegation level describes the relative scope of authority and autonomy. Consequence describes the potential magnitude and significance of effects. A higher delegation level does not necessarily indicate a higher consequence, and a lower delegation level does not necessarily indicate a lower consequence. They should therefore be assessed as separate dimensions.
 
 4.6 Readiness Assessment
 ------------------------
