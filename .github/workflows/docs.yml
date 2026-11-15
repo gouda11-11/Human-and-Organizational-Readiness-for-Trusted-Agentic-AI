@@ -1,6 +1,6 @@
 name: Build and deploy docs
 
-# Build the Sphinx HTML (and PDF) and publish to GitHub Pages
+# Build Sphinx HTML and PDF; publish only for non-pull-request events.
 # on every push to main.
 
 on:

@@ -127,7 +127,7 @@ The agent exercises substantial delegated authority and broad autonomy within a 
 The selected level should be justified in relation to the actual delegated authority and operating environment. Potential consequence, reversibility, and intervention conditions should be assessed separately.
 
 A.6 Agent Capability Assessment
-------------------------------
+-------------------------------
 
 Assess the capabilities relevant to the proposed delegation.
 
@@ -473,7 +473,7 @@ Existing delegated authority should be temporarily suspended because readiness o
 Delegated authority should be withdrawn because continued delegation is no longer appropriate.
 
 A.17 Assurance Statement
------------------------
+------------------------
 
 The assessment record should include a concise statement describing the basis for the readiness determination.
 
@@ -613,3 +613,155 @@ It does not establish:
 * a determination that any particular delegation is inherently safe or unsafe.
 
 Future versions should be informed by empirical validation, stakeholder consultation, practical deployments, and compatibility with relevant AI governance and assurance approaches.
+
+
+A.23 Criterion-Level Assessment Record
+--------------------------------------
+
+The following record extends the worksheet by linking each criterion to its
+result, evidence, limitations, and remediation. It may be repeated for each
+applicable criterion.
+
+**Criterion identifier**
+
+Assign a unique identifier linked to the relevant readiness dimension.
+
+**Criterion**
+
+State the criterion being assessed.
+
+**Applicability**
+
+Record applicable or not applicable. If not applicable, document the
+contextual rationale and the person accepting that rationale.
+
+**Assessment result**
+
+Record one of the following:
+
+* Met
+* Partially met
+* Not met
+* Not assessed
+
+Do not treat "not assessed" as a positive result. Do not calculate an overall
+readiness result by averaging these descriptors.
+
+**Evidence reference**
+
+Identify the evidence item, its source, owner, date, version, and location
+within the organization's controlled record system.
+
+**Evidence quality**
+
+Record observations about relevance, currency, completeness, reliability,
+independence, reproducibility, and limitations.
+
+**Assessor rationale**
+
+Explain how the evidence supports the result and identify any uncertainty or
+contrary evidence.
+
+**Gap and potential effect**
+
+Describe the unresolved weakness and its potential effect on the proposed
+delegation.
+
+**Required action**
+
+Specify the control, remediation, restriction, or further test required.
+
+**Action owner and target date**
+
+Identify the accountable person or function and the target completion date.
+
+**Closure evidence**
+
+Identify the evidence required to demonstrate that the action has been
+completed and the criterion reassessed.
+
+A.24 Decision-Gate Review
+-------------------------
+
+For each proposed delegation, record the result and rationale for each
+applicable decision gate:
+
+* Authority gate
+* Capability gate
+* Human control gate
+* Organizational control gate
+* Accountability gate
+* Evidence gate
+
+For each gate, record:
+
+* criteria reviewed;
+* result and supporting evidence;
+* unresolved gaps;
+* required conditions or remediation;
+* decision owner; and
+* date of review.
+
+A failed gate should lead to deferral, reduction, or suspension until the
+relevant issue is addressed and reassessed. Any departure from this proposed
+approach should be explicitly justified and reviewed by the appropriate
+delegation authority. A gate result should not be inferred from an average
+score across readiness dimensions.
+
+A.25 Accountability Role Allocation Record
+-------------------------------------------
+
+Record the named person or organizational function assigned to each role.
+Where one role is not applicable, explain why. Where a role is combined with
+another, record the rationale and any conflict-of-interest or capacity
+controls.
+
+.. list-table:: Accountability role allocation
+   :header-rows: 1
+   :widths: 28 32 40
+
+   * - Role
+     - Assigned person or function
+     - Authority, responsibility, and escalation route
+   * - Delegation authority
+     - To be completed
+     - Approves, limits, changes, or withdraws delegated authority
+   * - Delegating party
+     - To be completed
+     - Defines the objective and grants authority through the approved process
+   * - Operational owner
+     - To be completed
+     - Owns the service or process in which the agent operates
+   * - Agent operator
+     - To be completed
+     - Configures, operates, and maintains the agent and integrations
+   * - Supervising human or function
+     - To be completed
+     - Monitors activity and exercises oversight and intervention
+   * - Incident owner
+     - To be completed
+     - Coordinates incident response, investigation, and escalation
+   * - Assurance or review function
+     - To be completed
+     - Reviews evidence and continuing suitability of the delegation
+
+This record is a governance aid and does not establish legal responsibility
+or replace applicable organizational policies or law.
+
+A.26 Validation and Use Limitations
+-----------------------------------
+
+The criteria and decision gates in this appendix are proposed assessment
+design elements. They have not been established as validated measures,
+universal thresholds, or a certification scheme.
+
+Before operational use in a high-impact or regulated context, the criteria
+should be reviewed by relevant domain, technical, operational, legal,
+workforce, and assurance experts. Practical testing should examine whether
+different assessors can interpret the criteria consistently, whether the
+requested evidence is obtainable, whether important failure conditions are
+captured, and whether the resulting decisions are useful and proportionate.
+
+The assessment should record the version of the criteria used. Changes to
+criteria, evidence expectations, or decision gates should be versioned so
+that assessments performed under different versions can be distinguished.
