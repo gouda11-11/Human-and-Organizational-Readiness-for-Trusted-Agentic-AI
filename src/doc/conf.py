@@ -38,10 +38,6 @@ import os as _os
 plantuml = _os.environ.get("PLANTUML", "plantuml")
 plantuml_output_format = 'svg'
 templates_path = ['_templates']
-html_js_files = [
-    "osia-sidebar.js",
-]
-
 exclude_patterns = ['_*.rst', '*/_*.rst']
 
 rst_prolog = '''
