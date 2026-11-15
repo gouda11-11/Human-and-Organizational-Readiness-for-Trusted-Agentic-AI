@@ -189,6 +189,7 @@ latex_elements = {
     \endgroup
     \if@openright\cleardoublepage\else\clearpage\fi
   }%
+  \hypersetup{pdftitle={Human and Organizational Readiness for Trusted Agentic AI (HORA-TAI)},pdfauthor={Dr. Islam Gouda},pdfsubject={Working Specification for Discussion within ITU-T FG-TIDA},pdfkeywords={Agentic AI, human oversight, organizational readiness, delegated authority, accountability}}%
   \title{HORA-TAI}%
   \release{Version 0.2}%
 }
@@ -336,8 +337,6 @@ latex_elements = {
   # 00 - overview.rst so the overview chapter physically precedes the TOC.
   'tableofcontents': '',
   'atendofbody':u'''
-  \\listoftables
-  \\listoffigures
  ''',
 
 'classoptions' : ',english,openany,oneside'
