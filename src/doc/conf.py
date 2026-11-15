@@ -6,7 +6,7 @@ master_doc = 'index'
 exclude_patterns = []
 pygments_style = 'colorful'
 project = 'HORA-TAI'
-release = '0.2'
+release = '0.3'
 html_title = "HORA-TAI | Human and Organizational Readiness for Trusted Agentic AI"
 author = 'Dr. Islam Gouda'
 
