@@ -371,6 +371,14 @@ The factors should be assessed in the context of the intended use and
 should be reassessed when the delegation context, agent capability,
 organizational conditions, or consequences materially change.
 
+For discussion, potential consequence may be described qualitatively as
+limited, moderate, significant, or critical. These descriptors are
+illustrative prompts rather than universal thresholds. Their
+interpretation should reflect the affected parties, scale and duration
+of potential effects, reversibility, and the operating context. They
+should not be combined with the delegation level to produce an
+unvalidated numerical score.
+
 Delegation level describes the relative scope of authority and autonomy. Consequence describes the potential magnitude and significance of effects. A higher delegation level does not necessarily indicate a higher consequence, and a lower delegation level does not necessarily indicate a lower consequence. They should therefore be assessed as separate dimensions.
 
 4.6 Readiness Assessment
