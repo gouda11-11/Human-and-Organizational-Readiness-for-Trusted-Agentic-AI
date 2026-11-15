@@ -38,9 +38,7 @@ import os as _os
 plantuml = _os.environ.get("PLANTUML", "plantuml")
 plantuml_output_format = 'svg'
 templates_path = ['_templates']
-html_js_files = [
-    "osia-sidebar.js",
-]
+# Custom JavaScript is intentionally excluded from the contribution package.
 
 exclude_patterns = ['_*.rst', '*/_*.rst']
 
