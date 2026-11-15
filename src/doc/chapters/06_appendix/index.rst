@@ -127,7 +127,7 @@ The agent exercises substantial delegated authority and broad autonomy within a 
 The selected level should be justified in relation to the actual delegated authority and operating environment. Potential consequence, reversibility, and intervention conditions should be assessed separately.
 
 A.6 Agent Capability Assessment
-------------------------------
+-------------------------------
 
 Assess the capabilities relevant to the proposed delegation.
 
@@ -473,7 +473,7 @@ Existing delegated authority should be temporarily suspended because readiness o
 Delegated authority should be withdrawn because continued delegation is no longer appropriate.
 
 A.17 Assurance Statement
------------------------
+------------------------
 
 The assessment record should include a concise statement describing the basis for the readiness determination.
 
