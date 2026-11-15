@@ -120,11 +120,11 @@ The agent performs multiple actions and makes intermediate decisions within pred
 
 The agent pursues a defined objective through multiple steps with broader decision authority and limited direct human intervention.
 
-**Level 4 - High-Consequence Autonomy**
+**Level 4 - Advanced Delegated Authority**
 
-The agent exercises substantial autonomy in an activity where unintended or incorrect actions could produce significant consequences.
+The agent exercises substantial delegated authority and broad autonomy within a defined operational context. The level describes the scope and degree of delegated authority; it does not classify the potential consequence of the activity.
 
-The selected level should be justified in relation to the actual delegated authority and operating environment.
+The selected level should be justified in relation to the actual delegated authority and operating environment. Potential consequence, reversibility, and intervention conditions should be assessed separately.
 
 A.6 Agent Capability Assessment
 ------------------------------
