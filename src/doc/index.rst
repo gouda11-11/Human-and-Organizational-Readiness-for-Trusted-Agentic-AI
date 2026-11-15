@@ -25,9 +25,14 @@ History
 
    * - Version
      - Document
-     - Approval date
+     - Revision date
      - Focus Group
      - Working Group
+   * - 0.3
+     - Human and Organizational Readiness for Trusted Agentic AI
+     - 2026-11-15
+     - TIDA
+     - To be confirmed
    * - 0.2
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-09-22
@@ -73,7 +78,7 @@ This document is submitted as a working specification for discussion within FG-T
 Note
 ----
 
-This document is an initial working specification and is not an ITU-T Recommendation. The terminology, framework dimensions, delegation levels, requirements, and assessment methodology are proposed for discussion and may be revised through the FG-TIDA development process.
+This document is a working specification for discussion and is not an ITU-T Recommendation or approved ITU-T standard. The terminology, framework dimensions, delegation levels, requirements, and assessment methodology are proposals that may be revised through the FG-TIDA development process.
 
 The appropriate FG-TIDA working group for this contribution is to be confirmed by the FG-TIDA Secretariat.
 
