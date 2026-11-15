@@ -6,7 +6,7 @@ The working specification addresses delegated authority, meaningful human oversi
 
 ## Document status
 
-- **Version:** 0.2
+- **Version:** 0.3
 - **Status:** Working specification for discussion within the ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)
 - **Author:** Dr. Islam Gouda
 - **Affiliation:** Humanized AI Economy Initiative
@@ -16,7 +16,9 @@ This document is a proposal for discussion and refinement. It is not an ITU-T Re
 
 ## Read the specification
 
-The source document is maintained in `src/doc/`. The main entry point is [src/doc/index.rst](src/doc/index.rst).
+The source document is maintained in `src/doc/`.
+
+Version 0.3 refines the assessment architecture by distinguishing agent capability, human readiness, and organizational readiness; separating delegation autonomy from potential consequence; and clarifying the distinction between traceability and assurance evidence. The main entry point is [src/doc/index.rst](src/doc/index.rst).
 
 The repository is configured to build the HTML documentation and a PDF through GitHub Actions and publish them through GitHub Pages when the workflow and Pages configuration are successfully enabled.
 
