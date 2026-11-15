@@ -6,6 +6,8 @@ name: Build and deploy docs
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   # Allow manual runs from the Actions tab
   workflow_dispatch:
 
@@ -64,6 +66,7 @@ jobs:
           path: target/html
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-24.04
     environment:
