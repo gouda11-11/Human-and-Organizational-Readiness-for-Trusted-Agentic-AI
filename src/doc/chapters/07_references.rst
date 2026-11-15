@@ -132,11 +132,11 @@ AI Risk and Assurance Resources
 -------------------------------
 
 [12] National Institute of Standards and Technology (NIST), "Artificial
-Intelligence Risk Management Framework".
+Intelligence Risk Management Framework", official framework resource page.
 
-The NIST AI RMF provides a voluntary, use-case-agnostic framework for managing
-AI risks and incorporating trustworthiness considerations into AI design,
-development, deployment, use, and evaluation.
+This page provides the official access point for the NIST AI RMF, its
+supporting materials, and related implementation resources. The framework
+itself is cited separately in reference [2].
 
 https://www.nist.gov/itl/ai-risk-management-framework
 
@@ -153,6 +153,35 @@ Relationship to HORA-TAI
 ------------------------
 
 The references above inform different aspects of the HORA-TAI framework.
+
+The following indicative mapping identifies areas of conceptual
+relevance. It is not a clause-by-clause equivalence assessment and does
+not imply that the cited sources prescribe or validate HORA-TAI
+requirements.
+
+.. list-table:: Indicative relationship between HORA-TAI and cited resources
+   :header-rows: 1
+   :widths: 32 38 30
+
+   * - HORA-TAI area
+     - Relevant reference(s)
+     - Nature of relationship
+   * - Human capability and human agency
+     - [8], [11], [10]
+     - Human-centred principles and, within its scope, human oversight obligations
+   * - Organizational governance
+     - [5], [2]
+     - AI management-system and AI risk-management perspectives
+   * - Risk, consequence, and controls
+     - [6], [2], [4]
+     - AI risk-management guidance and generative AI risk considerations
+   * - Terminology
+     - [7]
+     - AI concepts and terminology
+   * - Trust and identity context
+     - [1]
+     - Focus Group context concerning trust and identity for humans and agentic AI
+
 
 FG-TIDA provides the immediate standards-development context concerning trust
 and identity for humans and agentic AI.
