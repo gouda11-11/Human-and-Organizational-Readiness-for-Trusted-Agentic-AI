@@ -179,7 +179,7 @@ latex_elements = {
 %% Neutralise sphinxmanual.cls's TOC page-numbering swaps so they don't fight
 %% our \osiafrontmatter / \osiamainmatter macros. Also override \@title /
 %% \release here (after Sphinx writes them from project / release in conf.py)
-%% so the running header reads "Rec. ITU-T, Release <acronym>" in the PDF only,
+%% so the running header identifies HORA-TAI and its version in the PDF only,
 %% without touching the HTML.
 \AtBeginDocument{%
   \renewcommand{\sphinxtableofcontents}{%
@@ -269,12 +269,12 @@ latex_elements = {
 \newcommand{\coverSubject}{'''+cover_subject.replace('–', '--')+r'''}
 \newcommand{\coverSubtitle}{'''+cover_subtitle+r'''}
 
-%% TITLE — ITU-style cover page (white background, fits the rest of the document)
+%% TITLE — neutral HORA-TAI working-specification cover page
 \newcommand{\osiamaketitle}{%
   \begin{titlepage}
     \thispagestyle{empty}
     \begin{tikzpicture}[remember picture, overlay]
-      %% Top-left banner: ITUPublications / Recommendations
+      %% Top-left banner: document identity
       \node[anchor=north west, inner sep=0pt]
         at ([xshift=1.5cm, yshift=-1.3cm]current page.north west)
         {\sffamily\Large\textcolor{ituAccent}{\textbf{ITU}}\textbf{Publications}};
@@ -282,7 +282,7 @@ latex_elements = {
         at ([xshift=1.5cm, yshift=-1.9cm]current page.north west)
         {\sffamily\normalsize Recommendations};
 
-      %% Top-right banner: International Telecommunication Union / Standardization Sector
+      %% Top-right banner: status clarification
       \node[anchor=north east, inner sep=0pt]
         at ([xshift=-1.5cm, yshift=-1.3cm]current page.north east)
         {\sffamily\normalsize\textbf{International Telecommunication Union}};
@@ -321,7 +321,7 @@ latex_elements = {
         at ([xshift=1.5cm, yshift=-13cm]current page.north west)
         {\sffamily\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy\LARGE\bfseries \coverSubtitle};
 
-      %% TIDA logo bottom-right
+      %% No institutional logo is used on this proposal cover
       \node[anchor=south east, inner sep=0pt]
         at ([xshift=-1.5cm, yshift=1.5cm]current page.south east)
         {\includegraphics[width=2.5cm]{tida-logo.png}};
