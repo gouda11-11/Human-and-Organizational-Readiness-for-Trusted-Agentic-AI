@@ -3,6 +3,8 @@ Human and Organizational Readiness for Trusted Agentic AI
 
 **HORA-TAI**
 
+*A framework for assessing human and organizational readiness to delegate authority to agentic AI*
+
 Abstract
 --------
 
@@ -25,31 +27,31 @@ History
 
    * - Version
      - Document
-     - Revision date
+     - Revision / approval status
      - Changes
      - Focus Group
      - Working Group
    * - 0.5
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-11-26
+     - 2026-11-26 (working draft; not approved)
      - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; correct the separation of delegation level and consequence in Annex A.
      - TIDA
      - To be confirmed
    * - 0.4
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-11-26
+     - 2026-11-26 (working draft; not approved)
      - Align front matter and document structure with the FG-TIDA specification template; synchronize source, repository, and PDF version metadata.
      - TIDA
      - To be confirmed
    * - 0.3
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-11-15
+     - 2026-11-15 (working draft; not approved)
      - Refined assessment architecture; distinguished agent capability, human readiness, and organizational readiness; separated delegation autonomy from potential consequence; clarified traceability and assurance evidence.
      - TIDA
      - To be confirmed
    * - 0.2
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-09-22
+     - 2026-09-22 (working draft; not approved)
      - Earlier working version.
      - TIDA
      - To be confirmed
@@ -104,7 +106,7 @@ Note
 
 This document is a working specification for discussion and is not an ITU-T Recommendation or approved ITU-T standard. The terminology, framework dimensions, delegation levels, requirements, and assessment methodology are proposals that may be revised through the FG-TIDA development process.
 
-The appropriate FG-TIDA working group for this contribution is to be confirmed by the FG-TIDA Secretariat.
+The Working Group assignment for this contribution has not yet been made by FG-TIDA. This document remains an independent working proposal for discussion and refinement; its inclusion in the DataTracker does not imply endorsement or approval by ITU-T or FG-TIDA.
 
 Content
 -------
