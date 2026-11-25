@@ -23,7 +23,7 @@ History
 
 .. list-table::
    :header-rows: 1
-   :widths: 8 32 14 30 8 18
+   :widths: 8 26 24 30 8 18
 
    * - Version
      - Document
@@ -36,7 +36,7 @@ History
      - 2026-11-26 (working draft; not approved)
      - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; correct the separation of delegation level and consequence in Annex A.
      - TIDA
-     - Not yet assigned by FG-TIDA
+     - Not yet assigned
    * - 0.4
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-11-26 (working draft; not approved)
@@ -107,6 +107,13 @@ Note
 This document is a working specification for discussion and is not an ITU-T Recommendation or approved ITU-T standard. The terminology, framework dimensions, delegation levels, requirements, and assessment methodology are proposals that may be revised through the FG-TIDA development process.
 
 The Working Group assignment for this contribution has not yet been made by FG-TIDA. This document remains an independent working proposal for discussion and refinement; its inclusion in the DataTracker does not imply endorsement or approval by ITU-T or FG-TIDA.
+
+The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **NOT RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be interpreted as described in BCP 14, comprising RFC 2119 and RFC 8174, when and only when they appear in uppercase. These terms express proposed requirement levels within this working specification and are submitted for review and refinement by FG-TIDA; they do not, by themselves, establish obligations under an approved ITU-T Recommendation or regulation.
+
+Intellectual Property Rights
+-----------------------------
+
+This document is submitted as a working contribution for discussion within FG-TIDA. Any intellectual property disclosures, licensing conditions, and use obligations applicable to this contribution are governed by the relevant ITU-T and FG-TIDA procedures. This statement does not assert the absence of third-party intellectual property claims or imply approval or endorsement by ITU-T.
 
 Content
 -------
