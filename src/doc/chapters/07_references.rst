@@ -149,6 +149,17 @@ verification, and validation activities.
 
 https://airc.nist.gov/
 
+IETF Requirement Language
+--------------------------
+
+[14] Bradner, S. (1997), “Key words for use in RFCs to Indicate Requirement Levels”, RFC 2119, BCP 14, Internet Engineering Task Force.
+
+https://www.rfc-editor.org/rfc/rfc2119
+
+[15] Leiba, B. (2017), “Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words”, RFC 8174, BCP 14, Internet Engineering Task Force. RFC 8174 updates RFC 2119 and clarifies that the defined meanings apply only when the key words appear in uppercase.
+
+https://www.rfc-editor.org/rfc/rfc8174
+
 Relationship to HORA-TAI
 ------------------------
 
