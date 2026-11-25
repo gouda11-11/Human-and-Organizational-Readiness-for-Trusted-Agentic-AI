@@ -6,7 +6,7 @@ The working specification addresses delegated authority, meaningful human oversi
 
 ## Document status
 
-- **Version:** 0.4
+- **Version:** 0.5
 - **Status:** Working specification for discussion within the ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)
 - **Author:** Dr. Islam Gouda
 - **Affiliation:** Humanized AI Economy Initiative
@@ -18,7 +18,7 @@ This document is a proposal for discussion and refinement. It is not an ITU-T Re
 
 The source document is maintained in `src/doc/`.
 
-Version 0.4 aligns the document front matter and structure with the FG-TIDA specification template and synchronizes the source, repository, and PDF version metadata. It preserves the technical refinements introduced in version 0.3, including the distinction between agent capability, human readiness, and organizational readiness; the separation of delegation autonomy from potential consequence; and the distinction between traceability and assurance evidence. The main entry point is [src/doc/index.rst](src/doc/index.rst).
+Version 0.5 adds a proposed, traceable requirements baseline (HORA-REQ-001 to HORA-REQ-020), clarifies how applicability and evidence should be recorded, and corrects the Annex A table so delegation level is not conflated with potential consequence. It retains the framework's distinction between agent capability, human readiness, and organizational readiness; the separation of delegation autonomy from potential consequence; and the distinction between traceability and assurance evidence. The main entry point is [src/doc/index.rst](src/doc/index.rst).
 
 The repository is configured to build the HTML documentation and a PDF through GitHub Actions and publish them through GitHub Pages when the workflow and Pages configuration are successfully enabled.
 
