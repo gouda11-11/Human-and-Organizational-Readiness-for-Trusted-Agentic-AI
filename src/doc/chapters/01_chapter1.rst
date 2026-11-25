@@ -136,10 +136,3 @@ Chapter 4 presents the human and organizational readiness dimensions and the pro
 The annexes and appendices provide supporting material, including illustrative delegation levels, assessment considerations, and examples for further discussion.
 
 The framework is intended as a working specification for discussion within the ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA). The concepts and requirements presented in this document are proposals for review, refinement, and potential future standardization.
-
-1.9 Requirement Language
-------------------------
-
-The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **NOT RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be interpreted as described in BCP 14, comprising RFC 2119 and RFC 8174, when and only when they appear in uppercase.
-
-These terms express proposed requirement levels within this working specification. They are submitted for review and refinement by FG-TIDA and do not, by themselves, establish obligations under an approved ITU-T Recommendation or regulation.
