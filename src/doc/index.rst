@@ -1,12 +1,12 @@
 .. raw:: latex
 
-    \\pagestyle{plain}
-    \\thispagestyle{plain}
+    \pagestyle{plain}
+    \thispagestyle{plain}
     %% Suppress all TOC entries for the overview chapter (sections, subsections,
-    %% Copyright addcontentsline) — restored just before \\sphinxtableofcontents
+    %% Copyright addcontentsline) — restored just before \sphinxtableofcontents
     %% so chapters from Introduction onward appear in the TOC normally.
-    \\let\\osiaorigaddcontentsline\\addcontentsline
-    \\renewcommand{\\addcontentsline}[3]{}
+    \let\osiaorigaddcontentsline\addcontentsline
+    \renewcommand{\addcontentsline}[3]{}
 
 .. _chapter-overview:
 
@@ -133,9 +133,9 @@ Content
 
     %% Copyright notice intentionally omitted for this independent working proposal.
     %% Restore the template's TOC handling and begin numbered main matter.
-    \\let\\addcontentsline\\osiaorigaddcontentsline
-    \\sphinxtableofcontents
-    \\osiamainmatter
+    \let\addcontentsline\osiaorigaddcontentsline
+    \sphinxtableofcontents
+    \osiamainmatter
 
 .. toctree::
    :maxdepth: 3
