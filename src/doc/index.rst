@@ -34,7 +34,7 @@ History
    * - 0.5
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-11-26 (working draft; not approved)
-     - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; correct the separation of delegation level and consequence in Annex A.
+     - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; replace template demonstration content with HORA-TAI chapters and assessment annexes; align front matter and optional sections with the FG-TIDA template; apply BCP 14 requirement-language conventions; correct the Annex A table.
      - TIDA
      - Not yet assigned
    * - 0.4
