@@ -20,7 +20,7 @@ The working specification addresses delegated authority, meaningful human oversi
 - **Status:** Working specification for discussion within the ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)
 - **Author:** Dr. Islam Gouda
 - **Affiliation:** Humanized AI Economy Initiative
-- **Working group:** To be confirmed by the FG-TIDA Secretariat
+- **Working group:** Not yet assigned by FG-TIDA
 
 This document is a proposal for discussion and refinement. It is not an ITU-T Recommendation, an approved ITU-T standard, or an endorsed FG-TIDA specification.
 
