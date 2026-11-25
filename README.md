@@ -1,5 +1,15 @@
 # Human and Organizational Readiness for Trusted Agentic AI (HORA-TAI)
 
+## Propose a new work item
+
+Want to propose a new work item (NWI) to FG-TIDA? Follow the procedure in the [FG-TIDA contribution guide](https://fg-tida.github.io/.github/#new).
+
+## Contribute to this work item
+
+Contributions to this work item are subject to its status and the applicable FG-TIDA Working Group process. See the [FG-TIDA contribution guide](https://fg-tida.github.io/.github/#existing). Contributions are offered as input to the Working Group's work and may be incorporated into its deliverables. Participation follows ITU-T and FG-TIDA participation, conduct, and IPR rules.
+
+---
+
 **HORA-TAI** is a proposed human and organizational readiness framework for assessing whether people, teams, and organizations are prepared to delegate defined authority to agentic AI systems.
 
 The working specification addresses delegated authority, meaningful human oversight, accountability, traceability, workforce readiness, organizational governance, and continuous assurance. Its central principle is that trustworthy agentic AI requires not only trustworthy agents, but trustworthy delegation.
