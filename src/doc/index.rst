@@ -1,3 +1,15 @@
+.. raw:: latex
+
+    \\pagestyle{plain}
+    \\thispagestyle{plain}
+    %% Suppress all TOC entries for the overview chapter (sections, subsections,
+    %% Copyright addcontentsline) — restored just before \\sphinxtableofcontents
+    %% so chapters from Introduction onward appear in the TOC normally.
+    \\let\\osiaorigaddcontentsline\\addcontentsline
+    \\renewcommand{\\addcontentsline}[3]{}
+
+.. _chapter-overview:
+
 Human and Organizational Readiness for Trusted Agentic AI
 ==========================================================
 
@@ -23,39 +35,38 @@ History
 
 .. list-table::
    :header-rows: 1
-   :widths: 8 26 24 30 8 18
+   :widths: 10 26 32 14 18
 
    * - Version
      - Document
-     - Revision date / approval status
-     - Changes
+     - Approval
      - Focus Group
      - Working Group
+   * - 0.6
+     - Human and Organizational Readiness for Trusted Agentic AI
+     - 2026-11-26; working draft, not approved. Changes: restore FG-TIDA PDF front-matter and TOC controls; align History table and hidden numbered toctree with the official template.
+     - TIDA
+     - Not yet assigned
    * - 0.5
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-11-26 (working draft; not approved)
-     - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; replace template demonstration content with HORA-TAI chapters and assessment annexes; align front matter and optional sections with the FG-TIDA template; apply BCP 14 requirement-language conventions; correct the Annex A table.
+     - 2026-11-26; working draft, not approved. Changes: add HORA-REQ-001 to HORA-REQ-020; clarify applicability and evidence; replace template demonstration content with HORA-TAI chapters and assessment annexes; apply BCP 14 conventions; correct Annex A table.
      - TIDA
      - Not yet assigned
    * - 0.4
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-11-26 (working draft; not approved)
-     - Align front matter and document structure with the FG-TIDA specification template; synchronize source, repository, and PDF version metadata.
+     - 2026-11-26; working draft, not approved. Changes: align front matter and document structure with the FG-TIDA specification template; synchronize source, repository, and PDF version metadata.
      - TIDA
-     - Not yet assigned by FG-TIDA
+     - Not yet assigned
    * - 0.3
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-11-15 (working draft; not approved)
-     - Refined assessment architecture; distinguished agent capability, human readiness, and organizational readiness; separated delegation autonomy from potential consequence; clarified traceability and assurance evidence.
+     - 2026-11-15; working draft, not approved. Changes: refine assessment architecture; distinguish agent capability, human readiness, and organizational readiness; separate delegation autonomy from potential consequence; clarify traceability and assurance evidence.
      - TIDA
-     - Not yet assigned by FG-TIDA
+     - Not yet assigned
    * - 0.2
      - Human and Organizational Readiness for Trusted Agentic AI
-     - 2026-09-22 (working draft; not approved)
-     - Earlier working version.
+     - 2026-09-22; working draft, not approved. Changes: earlier working version.
      - TIDA
-     - Not yet assigned by FG-TIDA
-
+     - Not yet assigned
 Authors
 -------
 
@@ -118,9 +129,18 @@ This document is submitted as a working contribution for discussion within FG-TI
 Content
 -------
 
+.. raw:: latex
+
+    %% Copyright notice intentionally omitted for this independent working proposal.
+    %% Restore the template's TOC handling and begin numbered main matter.
+    \\let\\addcontentsline\\osiaorigaddcontentsline
+    \\sphinxtableofcontents
+    \\osiamainmatter
+
 .. toctree::
    :maxdepth: 3
    :numbered:
+   :hidden:
 
    chapters/01_chapter1
    chapters/02_chapter2
