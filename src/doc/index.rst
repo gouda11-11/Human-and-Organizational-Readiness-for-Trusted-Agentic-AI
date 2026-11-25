@@ -27,7 +27,7 @@ History
 
    * - Version
      - Document
-     - Revision / approval status
+     - Revision date / approval status
      - Changes
      - Focus Group
      - Working Group
@@ -36,25 +36,25 @@ History
      - 2026-11-26 (working draft; not approved)
      - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; correct the separation of delegation level and consequence in Annex A.
      - TIDA
-     - To be confirmed
+     - Not yet assigned by FG-TIDA
    * - 0.4
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-11-26 (working draft; not approved)
      - Align front matter and document structure with the FG-TIDA specification template; synchronize source, repository, and PDF version metadata.
      - TIDA
-     - To be confirmed
+     - Not yet assigned by FG-TIDA
    * - 0.3
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-11-15 (working draft; not approved)
      - Refined assessment architecture; distinguished agent capability, human readiness, and organizational readiness; separated delegation autonomy from potential consequence; clarified traceability and assurance evidence.
      - TIDA
-     - To be confirmed
+     - Not yet assigned by FG-TIDA
    * - 0.2
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-09-22 (working draft; not approved)
      - Earlier working version.
      - TIDA
-     - To be confirmed
+     - Not yet assigned by FG-TIDA
 
 Authors
 -------
