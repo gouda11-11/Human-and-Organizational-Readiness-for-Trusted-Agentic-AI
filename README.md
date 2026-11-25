@@ -28,7 +28,7 @@ This document is a proposal for discussion and refinement. It is not an ITU-T Re
 
 The source document is maintained in `src/doc/`.
 
-Version 0.5 adds a proposed, traceable requirements baseline (HORA-REQ-001 to HORA-REQ-020), clarifies how applicability and evidence should be recorded, and corrects the Annex A table so delegation level is not conflated with potential consequence. It retains the framework's distinction between agent capability, human readiness, and organizational readiness; the separation of delegation autonomy from potential consequence; and the distinction between traceability and assurance evidence. The main entry point is [src/doc/index.rst](src/doc/index.rst).
+Version 0.5 adds a proposed, traceable requirements baseline (HORA-REQ-001 to HORA-REQ-020), clarifies how applicability and evidence should be recorded, replaces template demonstration content with HORA-TAI chapters and assessment annexes, aligns front matter and optional sections with the FG-TIDA template, applies BCP 14 requirement-language conventions, and corrects the Annex A table so delegation level is not conflated with potential consequence. It retains the framework's distinction between agent capability, human readiness, and organizational readiness; the separation of delegation autonomy from potential consequence; and the distinction between traceability and assurance evidence. The main entry point is [src/doc/index.rst](src/doc/index.rst).
 
 The repository is configured to build the HTML documentation and a PDF through GitHub Actions and publish them through GitHub Pages when the workflow and Pages configuration are successfully enabled.
 
