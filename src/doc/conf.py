@@ -6,7 +6,7 @@ master_doc = 'index'
 exclude_patterns = []
 pygments_style = 'colorful'
 project = 'HORA-TAI'
-release = '0.4'
+release = '0.5'
 html_title = "HORA-TAI | Human and Organizational Readiness for Trusted Agentic AI"
 author = 'Dr. Islam Gouda'
 
@@ -193,7 +193,7 @@ latex_elements = {
   }%
   \hypersetup{pdftitle={Human and Organizational Readiness for Trusted Agentic AI (HORA-TAI)},pdfauthor={Dr. Islam Gouda},pdfsubject={Working Specification for Discussion within ITU-T FG-TIDA},pdfkeywords={Agentic AI, human oversight, organizational readiness, delegated authority, accountability}}%
   \title{HORA-TAI}%
-  \release{Version 0.4}%
+  \release{Version 0.5}%
 }
 
 %% Hide the next \chapter heading. Used to suppress the "Overview" chapter
