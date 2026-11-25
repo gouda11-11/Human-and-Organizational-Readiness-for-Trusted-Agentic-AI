@@ -26,7 +26,7 @@ latex_documents = [
 cover_title    = 'Human and Organizational Readiness for Trusted Agentic AI (HORA-TAI)'
 cover_series   = 'Working Specification for Discussion within ITU-T FG-TIDA'
 cover_subject  = 'Human and Organizational Readiness for Trusted Agentic AI'
-cover_subtitle = 'A framework for assessing readiness to delegate authority to agentic AI'
+cover_subtitle = 'A framework for assessing human and organizational readiness to delegate authority to agentic AI'
 
 extensions = ['sphinxcontrib.plantuml', 'sphinx_copybutton']
 # PlantUML command. On CI (GitHub Actions / Read the Docs) the `plantuml` package
