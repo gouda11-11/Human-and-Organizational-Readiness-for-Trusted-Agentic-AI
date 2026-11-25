@@ -101,7 +101,8 @@ The following matrix provides an illustrative relationship between delegation le
 |          |                         | escalation                | strong traceability, and    |
 |          |                         |                           | intervention capability     |
 +----------+-------------------------+---------------------------+-----------------------------+
-| Level 4  | Advanced delegated      | Strong and demonstrable   | Particularly strong         |\n|          | authority               | oversight, intervention,  | governance, accountability, |
+| Level 4  | Advanced delegated      | Strong and demonstrable   | Particularly strong         |
+|          | authority               | oversight, intervention,  | governance, accountability, |
 |          |                         | and assurance             | traceability, assurance,    |
 |          |                         |                           | and organizational readiness|
 +----------+-------------------------+---------------------------+-----------------------------+
