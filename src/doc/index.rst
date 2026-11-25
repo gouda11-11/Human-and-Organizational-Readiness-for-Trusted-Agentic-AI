@@ -29,6 +29,12 @@ History
      - Changes
      - Focus Group
      - Working Group
+   * - 0.5
+     - Human and Organizational Readiness for Trusted Agentic AI
+     - 2026-11-26
+     - Add a traceable proposed requirements baseline (HORA-REQ-001 to HORA-REQ-020); clarify applicability and evidence; correct the separation of delegation level and consequence in Annex A.
+     - TIDA
+     - To be confirmed
    * - 0.4
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-11-26
