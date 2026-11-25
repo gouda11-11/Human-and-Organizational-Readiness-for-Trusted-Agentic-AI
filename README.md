@@ -21,6 +21,7 @@ The working specification addresses delegated authority, meaningful human oversi
 - **Author:** Dr. Islam Gouda
 - **Affiliation:** Humanized AI Economy Initiative
 - **Working group:** Not yet assigned by FG-TIDA
+- **DataTracker record:** [FG-TIDA-INCUBATION-001](https://tida-datatracker.org/doc/fg-tida-contribution-7/)
 
 This document is a proposal for discussion and refinement. It is not an ITU-T Recommendation, an approved ITU-T standard, or an endorsed FG-TIDA specification.
 
