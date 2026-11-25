@@ -28,7 +28,7 @@ cover_series   = 'Working Specification for Discussion within ITU-T FG-TIDA'
 cover_subject  = 'Human and Organizational Readiness for Trusted Agentic AI'
 cover_subtitle = 'A framework for assessing readiness to delegate authority to agentic AI'
 
-extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib.openapi', 'sphinx_copybutton']
+extensions = ['sphinxcontrib.plantuml', 'sphinx_copybutton']
 # PlantUML command. On CI (GitHub Actions / Read the Docs) the `plantuml` package
 # is installed via apt and provides a `plantuml` command on PATH, so the default
 # works there. For a local build, set the PLANTUML environment variable to point at
@@ -114,7 +114,6 @@ html_show_sourcelink = False
 copyright = '2026, Dr. Islam Gouda'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
 html_last_updated_fmt = '%b %d, %Y'
-html_extra_path = ['yaml']
 
 #
 # Latex/PDF Output Configuration
