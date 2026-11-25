@@ -21,21 +21,30 @@ History
 
 .. list-table::
    :header-rows: 1
-   :widths: 8 38 16 14 24
+   :widths: 8 32 14 30 8 18
 
    * - Version
      - Document
      - Revision date
+     - Changes
      - Focus Group
      - Working Group
+   * - 0.4
+     - Human and Organizational Readiness for Trusted Agentic AI
+     - 2026-11-26
+     - Align front matter and document structure with the FG-TIDA specification template; synchronize source, repository, and PDF version metadata.
+     - TIDA
+     - To be confirmed
    * - 0.3
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-11-15
+     - Refined assessment architecture; distinguished agent capability, human readiness, and organizational readiness; separated delegation autonomy from potential consequence; clarified traceability and assurance evidence.
      - TIDA
      - To be confirmed
    * - 0.2
      - Human and Organizational Readiness for Trusted Agentic AI
      - 2026-09-22
+     - Earlier working version.
      - TIDA
      - To be confirmed
 
@@ -58,6 +67,11 @@ Keywords
 
 Agentic AI, human oversight, organizational readiness, delegated authority, accountability, traceability, AI assurance, human agency, workforce readiness, trusted AI, continuous assurance.
 
+.. raw:: latex
+
+    \newpage
+    \osiacenternextsection
+
 Foreword
 --------
 
@@ -75,6 +89,10 @@ The framework is designed to be technology-neutral. It does not prescribe a part
 
 This document is submitted as a working specification for discussion within FG-TIDA. The concepts, terminology, levels, and requirements presented here are proposals for further review and refinement by the Focus Group and its participants.
 
+.. raw:: latex
+
+    \osiacenternextsection
+
 Note
 ----
 
@@ -82,8 +100,11 @@ This document is a working specification for discussion and is not an ITU-T Reco
 
 The appropriate FG-TIDA working group for this contribution is to be confirmed by the FG-TIDA Secretariat.
 
+Content
+-------
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :numbered:
 
    chapters/01_chapter1
